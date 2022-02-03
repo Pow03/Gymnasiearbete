@@ -9,11 +9,44 @@ public class ThirdPersonMovement : MonoBehaviour
 
     public float speed = 6f;
 
+    public float verticalVelocity;
+    public float gravity = 200.0f;
+    public float jumpForce = 10.0f;
+
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
 
-    // Update is called once per frame
-    void Update()
+    #region - Awake - 
+
+    private void Start()
+    {
+        
+    }
+
+    #endregion
+
+    #region - Gravity -
+    private void Gravity()
+    {
+        if (controller.isGrounded)
+        {
+            verticalVelocity = -gravity * Time.deltaTime;
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                verticalVelocity = jumpForce;
+            }
+        }
+        else
+        {
+            verticalVelocity -= gravity * Time.deltaTime;
+        }
+        Vector3 moveVector = new Vector3(0, verticalVelocity, 0);
+        controller.Move(moveVector * Time.deltaTime);
+    }
+    #endregion
+
+    #region - Movement - 
+    private void Movement()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
@@ -29,4 +62,14 @@ public class ThirdPersonMovement : MonoBehaviour
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
     }
+    #endregion
+
+    #region - Update -
+    // Update is called once per frame
+    private void Update()
+    {
+        Movement();
+        Gravity();
+    }
+    #endregion
 }
