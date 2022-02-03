@@ -223,7 +223,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1826129239}
     m_Modifications:
     - target: {fileID: 100006, guid: b544816461f324e56a39767fdeb5b114, type: 3}
       propertyPath: m_Name
@@ -231,7 +231,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 3}
       propertyPath: m_LocalScale.x
@@ -243,15 +243,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 696
+      value: 190.50394
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 20.9
+      value: 3.0575829
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 388.3
+      value: -119.74222
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 3}
       propertyPath: m_LocalRotation.w
@@ -259,15 +259,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -415,7 +415,306 @@ MonoBehaviour:
     distance: 5
     scaleRange: {x: 1.6, y: 2}
     sinkAmount: 0
-  grassPrefabs: []
+  grassPrefabs:
+  - enabled: 1
+    name: grass plant 1
+    seed: 29812
+    probability: 64.9
+    collisionCheck: 0
+    rejectUnderwater: 0
+    heightRange: {x: 0, y: 1000}
+    slopeRange: {x: 0, y: 60}
+    curvatureRange: {x: 0, y: 1}
+    layerMasks:
+    - name: NewLayer 1
+      layerID: 0
+      threshold: 0
+    - name: NewLayer 1
+      layerID: 4
+      threshold: 0
+    - name: NewLayer 2
+      layerID: 5
+      threshold: 0
+    - name: NewLayer
+      layerID: 2
+      threshold: 0
+    - name: NewLayer
+      layerID: 3
+      threshold: 0
+    instanceCount: 579878
+    index: 0
+    type: 1
+    renderAsBillboard: 0
+    prefab: {fileID: 0}
+    billboard: {fileID: 2800000, guid: 0705cfa7ef11ef4438997bbfd18fdbd1, type: 3}
+    mainColor: {r: 0.2692482, g: 0.6603774, b: 0, a: 1}
+    secondaryColor: {r: 0.2457143, g: 0.6037736, b: 0, a: 1}
+    linkColors: 0
+    minMaxHeight: {x: 0.5, y: 1}
+    minMaxWidth: {x: 0.8, y: 1.2}
+    noiseSize: 0.1
+  - enabled: 1
+    name: grass plant 4
+    seed: 4521
+    probability: 100
+    collisionCheck: 0
+    rejectUnderwater: 0
+    heightRange: {x: 0, y: 1000}
+    slopeRange: {x: 0, y: 60}
+    curvatureRange: {x: 0, y: 1}
+    layerMasks:
+    - name: NewLayer 1
+      layerID: 0
+      threshold: 0
+    - name: NewLayer
+      layerID: 2
+      threshold: 0
+    - name: NewLayer
+      layerID: 3
+      threshold: 0
+    - name: NewLayer 1
+      layerID: 4
+      threshold: 0
+    - name: NewLayer 2
+      layerID: 5
+      threshold: 0
+    instanceCount: 892012
+    index: 1
+    type: 1
+    renderAsBillboard: 0
+    prefab: {fileID: 0}
+    billboard: {fileID: 2800000, guid: c7abd6e6162ed0141870c5c748173ecb, type: 3}
+    mainColor: {r: 0.2692482, g: 0.6603774, b: 0, a: 1}
+    secondaryColor: {r: 0.2457143, g: 0.6037736, b: 0, a: 1}
+    linkColors: 0
+    minMaxHeight: {x: 0.91721857, y: 1.4172186}
+    minMaxWidth: {x: 1.5350994, y: 1.9350995}
+    noiseSize: 0.1
+  - enabled: 1
+    name: grass plant 3
+    seed: 7023
+    probability: 61.1
+    collisionCheck: 0
+    rejectUnderwater: 0
+    heightRange: {x: 0, y: 1000}
+    slopeRange: {x: 0, y: 60}
+    curvatureRange: {x: 0, y: 1}
+    layerMasks:
+    - name: NewLayer 1
+      layerID: 0
+      threshold: 0
+    - name: NewLayer
+      layerID: 1
+      threshold: 0
+    - name: NewLayer
+      layerID: 2
+      threshold: 0
+    - name: NewLayer
+      layerID: 3
+      threshold: 0
+    - name: NewLayer 1
+      layerID: 4
+      threshold: 0
+    - name: NewLayer 2
+      layerID: 5
+      threshold: 0
+    instanceCount: 610315
+    index: 2
+    type: 1
+    renderAsBillboard: 0
+    prefab: {fileID: 0}
+    billboard: {fileID: 2800000, guid: 2eace3a6a0d7102448747a73ea654913, type: 3}
+    mainColor: {r: 0.2692482, g: 0.6603774, b: 0, a: 1}
+    secondaryColor: {r: 0.89341205, g: 0.9150943, b: 0.62588996, a: 1}
+    linkColors: 0
+    minMaxHeight: {x: 0.3807947, y: 0.8807948}
+    minMaxWidth: {x: 0.81986755, y: 1.2198675}
+    noiseSize: 0.1
+  - enabled: 1
+    name: grassFlower03
+    seed: 5459
+    probability: 78.9
+    collisionCheck: 0
+    rejectUnderwater: 0
+    heightRange: {x: 0, y: 1000}
+    slopeRange: {x: 0, y: 60}
+    curvatureRange: {x: 0, y: 1}
+    layerMasks:
+    - name: NewLayer 1
+      layerID: 0
+      threshold: 0
+    - name: NewLayer 1
+      layerID: 4
+      threshold: 0
+    - name: NewLayer 2
+      layerID: 5
+      threshold: 0
+    - name: NewLayer
+      layerID: 2
+      threshold: 0
+    - name: NewLayer
+      layerID: 3
+      threshold: 0
+    instanceCount: 703309
+    index: 3
+    type: 1
+    renderAsBillboard: 0
+    prefab: {fileID: 0}
+    billboard: {fileID: 2800000, guid: c6bde8cacfa93444fa98152cb9e36815, type: 3}
+    mainColor: {r: 0.2692482, g: 0.6603774, b: 0, a: 1}
+    secondaryColor: {r: 0.2457143, g: 0.6037736, b: 0, a: 1}
+    linkColors: 0
+    minMaxHeight: {x: 0.24172184, y: 0.74172187}
+    minMaxWidth: {x: 0.8, y: 1.2}
+    noiseSize: 0.1
+  - enabled: 1
+    name: grassFlower08
+    seed: 4404
+    probability: 71.9
+    collisionCheck: 0
+    rejectUnderwater: 0
+    heightRange: {x: 0, y: 1000}
+    slopeRange: {x: 0, y: 60}
+    curvatureRange: {x: 0, y: 1}
+    layerMasks:
+    - name: NewLayer 1
+      layerID: 0
+      threshold: 0
+    - name: NewLayer
+      layerID: 2
+      threshold: 0
+    - name: NewLayer
+      layerID: 3
+      threshold: 0
+    - name: NewLayer 1
+      layerID: 4
+      threshold: 0
+    - name: NewLayer 2
+      layerID: 5
+      threshold: 0
+    instanceCount: 639723
+    index: 4
+    type: 1
+    renderAsBillboard: 0
+    prefab: {fileID: 0}
+    billboard: {fileID: 2800000, guid: 8900a35e436818940b97df26c3a8a1aa, type: 3}
+    mainColor: {r: 0.2692482, g: 0.6603774, b: 0, a: 1}
+    secondaryColor: {r: 0.2457143, g: 0.6037736, b: 0, a: 1}
+    linkColors: 0
+    minMaxHeight: {x: 0.5, y: 1}
+    minMaxWidth: {x: 0.8, y: 1.2}
+    noiseSize: 0.1
+  - enabled: 1
+    name: grass plant 2
+    seed: 4404
+    probability: 81.1
+    collisionCheck: 0
+    rejectUnderwater: 0
+    heightRange: {x: 0, y: 1000}
+    slopeRange: {x: 0, y: 60}
+    curvatureRange: {x: 0, y: 1}
+    layerMasks:
+    - name: NewLayer 1
+      layerID: 0
+      threshold: 0
+    - name: NewLayer
+      layerID: 2
+      threshold: 0
+    - name: NewLayer
+      layerID: 3
+      threshold: 0
+    - name: NewLayer 1
+      layerID: 4
+      threshold: 0
+    - name: NewLayer 2
+      layerID: 5
+      threshold: 0
+    instanceCount: 723428
+    index: 5
+    type: 1
+    renderAsBillboard: 0
+    prefab: {fileID: 0}
+    billboard: {fileID: 2800000, guid: 2e2aeb89009e08c479cf2903fc8fa276, type: 3}
+    mainColor: {r: 0.2692482, g: 0.6603774, b: 0, a: 1}
+    secondaryColor: {r: 0.2457143, g: 0.6037736, b: 0, a: 1}
+    linkColors: 0
+    minMaxHeight: {x: 0.5, y: 1}
+    minMaxWidth: {x: 0.8, y: 1.2}
+    noiseSize: 0.1
+  - enabled: 1
+    name: grass plant 4
+    seed: 445
+    probability: 100
+    collisionCheck: 0
+    rejectUnderwater: 0
+    heightRange: {x: 0, y: 1000}
+    slopeRange: {x: 0, y: 60}
+    curvatureRange: {x: 0, y: 1}
+    layerMasks:
+    - name: NewLayer 1
+      layerID: 0
+      threshold: 0
+    - name: NewLayer
+      layerID: 2
+      threshold: 0
+    - name: NewLayer
+      layerID: 3
+      threshold: 0
+    - name: NewLayer 1
+      layerID: 4
+      threshold: 0
+    - name: NewLayer 2
+      layerID: 5
+      threshold: 0
+    instanceCount: 892009
+    index: 6
+    type: 1
+    renderAsBillboard: 0
+    prefab: {fileID: 0}
+    billboard: {fileID: 2800000, guid: c7abd6e6162ed0141870c5c748173ecb, type: 3}
+    mainColor: {r: 0.2692482, g: 0.6603774, b: 0, a: 1}
+    secondaryColor: {r: 0.2457143, g: 0.6037736, b: 0, a: 1}
+    linkColors: 0
+    minMaxHeight: {x: 0.5, y: 1}
+    minMaxWidth: {x: 0.8, y: 1.2}
+    noiseSize: 0.1
+  - enabled: 1
+    name: GrassFrond01AlbedoAlpha
+    seed: 4404
+    probability: 100
+    collisionCheck: 0
+    rejectUnderwater: 0
+    heightRange: {x: 0, y: 1000}
+    slopeRange: {x: 0, y: 60}
+    curvatureRange: {x: 0, y: 1}
+    layerMasks:
+    - name: NewLayer 1
+      layerID: 0
+      threshold: 0
+    - name: NewLayer
+      layerID: 2
+      threshold: 0
+    - name: NewLayer
+      layerID: 3
+      threshold: 0
+    - name: NewLayer 1
+      layerID: 4
+      threshold: 0
+    - name: NewLayer 2
+      layerID: 5
+      threshold: 0
+    instanceCount: 891997
+    index: 7
+    type: 1
+    renderAsBillboard: 0
+    prefab: {fileID: 0}
+    billboard: {fileID: 2800000, guid: 2c528fec5d95e4ac28cf46399b887662, type: 3}
+    mainColor: {r: 0.09052614, g: 0.8396226, b: 0.06732824, a: 1}
+    secondaryColor: {r: 0.14827341, g: 0.6415094, b: 0.17075859, a: 1}
+    linkColors: 0
+    minMaxHeight: {x: 0.5, y: 1}
+    minMaxWidth: {x: 0.8, y: 1.2}
+    noiseSize: 0.1
   terrainSettings:
     drawTreesAndFoliage: 1
     perservePrefabLayer: 1
@@ -455,7 +754,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &116808816
 GameObject:
@@ -818,12 +1117,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458343039}
-  m_LocalRotation: {x: 0.19507551, y: 0.13830008, z: 0.027580312, w: -0.97059673}
-  m_LocalPosition: {x: 497.91437, y: -27.979984, z: 444.2246}
+  m_LocalRotation: {x: -0.046960004, y: 0.44989786, z: 0.024114683, w: 0.8915185}
+  m_LocalPosition: {x: 24.779938, y: -67.14264, z: -29.983643}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1826129239}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!45 &458343042
 Skybox:
@@ -995,11 +1294,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: -518.1448, y: 20.59359, z: -359.0609}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 1769544323}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &920950414
 GameObject:
@@ -1031,7 +1330,7 @@ Transform:
   - {fileID: 116808817}
   - {fileID: 1695740370}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -1110,12 +1409,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.114488706, y: -0.0000000042734816, z: 4.9222193e-10, w: 0.9934246}
+  m_LocalRotation: {x: 0.114488706, y: 0.0000000042741024, z: -4.921486e-10, w: 0.9934246}
   m_LocalPosition: {x: 412.41394, y: 40.297585, z: 501.05774}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
@@ -1293,7 +1592,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043869125}
-  m_LocalRotation: {x: 0.09644767, y: 0.000000019147635, z: -0.0000000018553942, w: 0.9953381}
+  m_LocalRotation: {x: 0.09644766, y: -0.000000019147633, z: 0.0000000018553941, w: 0.9953381}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1301,6 +1600,11 @@ Transform:
   m_Father: {fileID: 1695740370}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1081707071 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 3}
+  m_PrefabInstance: {fileID: 34178826}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1695740368
 GameObject:
   m_ObjectHideFlags: 0
@@ -1467,6 +1771,37 @@ MonoBehaviour:
   m_Damping: 0.81
   m_DampingWhenOccluded: 0.81
   m_OptimalTargetDistance: 0
+--- !u!1 &1769544322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1769544323}
+  m_Layer: 0
+  m_Name: Sky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1769544323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769544322}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 518.1448, y: -17.59359, z: 359.0609}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 705507995}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1826129238
 GameObject:
   m_ObjectHideFlags: 0
@@ -1495,8 +1830,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2046848195}
+  - {fileID: 458343041}
+  - {fileID: 1081707071}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2046848194
 GameObject:
@@ -1911,7 +2248,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146216115}
-  m_LocalRotation: {x: 0.11448867, y: -0.000000004273311, z: 4.9248394e-10, w: 0.9934246}
+  m_LocalRotation: {x: 0.11448867, y: 0.00000000427331, z: -4.924839e-10, w: 0.9934246}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
